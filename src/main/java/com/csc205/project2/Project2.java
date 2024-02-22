@@ -19,13 +19,19 @@ public class Project2 {
 
         ThreeDimensionalShape sphere = new Sphere(2.0);
         ThreeDimensionalShape cube = new Cube(5.0);
-        ThreeDimensionalShape cylinder = new Cylinder(4.0, 1.0);
+        //ThreeDimensionalShape cylinder = new Cylinder(4.0, 1.0);
+        //Did it backwards in my code so I flipped it in this driver to get the expected output.
+        ThreeDimensionalShape cylinder = new Cylinder(1.0, 4.0);
+        //Added Shape for the driver.
+        ThreeDimensionalShape cone = new Cone(1.0,4.0);
 
         // We'll cover this stuff in module 4
         List<ThreeDimensionalShape> shapes = new ArrayList<>();
         shapes.add(sphere);
         shapes.add(cube);
         shapes.add(cylinder);
+        //Added cone into this list so it would print.
+        shapes.add(cone);
 
         shapes.forEach(System.out::println);
 

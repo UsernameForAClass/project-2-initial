@@ -1,6 +1,6 @@
 package com.csc205.project2;
 
-public class Cube extends ThreeDimensionalShape {
+public class Cube extends Shape {
     private double width;
 
     public Cube() {
