@@ -1,5 +1,6 @@
 package com.csc205.project2;
 
+
 public class Cylinder extends Shape {
 
     private double height;
@@ -46,6 +47,8 @@ public class Cylinder extends Shape {
         final StringBuilder sb = new StringBuilder("Cylinder {");
         sb.append("height=").append(height);
         sb.append(", radius=").append(radius);
+        sb.append("radius=").append(radius);
+        sb.append(", height=").append(height);
         sb.append(", surface area=").append(surfaceArea());
         sb.append(", volume=").append(volume());
         sb.append('}');
